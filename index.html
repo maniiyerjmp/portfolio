@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani Iyer - Equity Research & Investment Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Mani Iyer</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#competencies">Skills</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-name">Mani Iyer</h1>
+                <p class="hero-tagline">Equity Research Enthusiast | Value Investor | CFA Level I Candidate</p>
+                <p class="hero-subtitle">B.Com (Accounts Hons) | 5+ Years Stock Market Experience | Fundamental & Technical Analysis</p>
+                <div class="hero-buttons">
+                    <a href="#research" class="btn btn-primary">View Research & Analysis</a>
+                    <a href="#" class="btn btn-secondary">Download Resume</a>
+                    <a href="https://www.linkedin.com/in/iyermanii" target="_blank" class="btn btn-outline">Connect on LinkedIn</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="chart-container">
+                    <canvas id="heroChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>As a CFA Level I candidate with over five years of hands-on stock market experience, I've developed a disciplined approach to equity research and investment analysis. My journey began during my B.Com (Accounts Hons) studies at The Bhawanipur Education Society College, where I discovered my passion for financial markets and value investing principles.</p>
+                    
+                    <p>I actively manage my personal portfolio, applying a blend of fundamental analysis and technical insights to make informed investment decisions. This real-world experience has taught me the importance of thorough research, conviction-building, and disciplined risk management. Every investment decision is backed by comprehensive business analysis, financial statement evaluation, and careful consideration of market dynamics.</p>
+                    
+                    <p>My approach combines the patience of long-term value investing with the precision of technical analysis for optimal entry and exit timing. I believe in the margin of safety principle and focus on businesses with sustainable competitive advantages, strong management teams, and attractive valuations.</p>
+                    
+                    <p>I'm actively seeking opportunities in equity research, portfolio management, and financial analysis where I can contribute my analytical skills, market experience, and passion for uncovering investment opportunities while continuing to learn from seasoned professionals in the industry.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Market Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">CFA L1</div>
+                        <div class="stat-label">Candidate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">B.Com</div>
+                        <div class="stat-label">Accounts Hons</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Competencies -->
+    <section id="competencies" class="competencies">
+        <div class="container">
+            <h2 class="section-title">Core Competencies</h2>
+            <div class="competencies-grid">
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Fundamental Analysis</h3>
+                    <ul>
+                        <li>Business & industry analysis</li>
+                        <li>Financial statement analysis</li>
+                        <li>Valuation (DCF, ratios, intrinsic value)</li>
+                        <li>Moat & management evaluation</li>
+                    </ul>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Technical Analysis</h3>
+                    <ul>
+                        <li>Price action analysis</li>
+                        <li>Support & resistance levels</li>
+                        <li>Trend analysis & patterns</li>
+                        <li>Entry/exit & risk management</li>
+                    </ul>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Market & Tools</h3>
+                    <ul>
+                        <li>Portfolio management basics</li>
+                        <li>MS Excel (financial modeling)</li>
+                        <li>PowerPoint (investment presentations)</li>
+                        <li>Market research & data interpretation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Philosophy -->
+    <section id="philosophy" class="philosophy">
+        <div class="container">
+            <h2 class="section-title">Investment Philosophy</h2>
+            <div class="philosophy-content">
+                <div class="philosophy-principles">
+                    <div class="principle">
+                        <h3>Value-Oriented Approach</h3>
+                        <p>I believe in buying quality businesses at reasonable prices, focusing on companies with strong fundamentals, sustainable competitive advantages, and competent management teams.</p>
+                    </div>
+                    <div class="principle">
+                        <h3>Margin of Safety</h3>
+                        <p>Every investment decision incorporates a margin of safety to protect against unforeseen risks and market volatility, ensuring capital preservation remains paramount.</p>
+                    </div>
+                    <div class="principle">
+                        <h3>Disciplined Research</h3>
+                        <p>Thorough fundamental analysis combined with technical insights for optimal timing. I believe in understanding the business before investing in the stock.</p>
+                    </div>
+                    <div class="principle">
+                        <h3>Risk Management</h3>
+                        <p>Capital preservation through diversification, position sizing, and systematic risk assessment. Learning from both successful investments and mistakes to continuously improve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Sep 2022 - Nov 2022</div>
+                    <div class="timeline-content">
+                        <h3>Customer Support Executive</h3>
+                        <h4>Flipkart</h4>
+                        <p>Developed strong communication and problem-resolution skills while managing customer inquiries under strict timelines. Coordinated effectively with internal teams to ensure customer satisfaction. This role enhanced my professional discipline, attention to detail, and ability to work under pressure - skills directly transferable to financial analysis and client interaction in investment roles.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="subsection-title">Practical Market Experience</h3>
+            <div class="market-experience">
+                <div class="experience-item">
+                    <i class="fas fa-chart-pie"></i>
+                    <div>
+                        <h4>Personal Portfolio Management</h4>
+                        <p>Actively managing equity portfolio with focus on value investing principles and risk-adjusted returns</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <i class="fas fa-search"></i>
+                    <div>
+                        <h4>Independent Equity Research</h4>
+                        <p>Conducting comprehensive company analysis, financial modeling, and investment thesis development</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <i class="fas fa-calculator"></i>
+                    <div>
+                        <h4>Valuation & Technical Analysis</h4>
+                        <p>Applying DCF models, ratio analysis, and technical indicators for investment decision-making</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h4>Continuous Learning</h4>
+                        <p>Learning from market cycles, analyzing both successful investments and mistakes for continuous improvement</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Qualifications</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3>CFA Level I Candidate</h3>
+                    <p>CFA Institute</p>
+                    <span class="education-year">In Progress</span>
+                </div>
+                <div class="education-item">
+                    <h3>B.Com (Accounts & Finance)</h3>
+                    <p>The Bhawanipur Education Society College (BESC)<br>Calcutta University</p>
+                    <span class="education-year">2021 - 2024</span>
+                </div>
+                <div class="education-item">
+                    <h3>Class 12 - Commerce</h3>
+                    <p>DAV Public School</p>
+                    <span class="education-year">2021</span>
+                </div>
+                <div class="education-item">
+                    <h3>Class 10</h3>
+                    <p>Notre Dame Academy</p>
+                    <span class="education-year">2019</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Insights -->
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">Research & Insights</h2>
+            <div class="research-content">
+                <div class="research-placeholder">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Coming Soon</h3>
+                    <p>Detailed equity analysis, market observations, and investment case studies will be published here. Stay tuned for comprehensive research reports and financial insights.</p>
+                    <div class="research-categories">
+                        <span class="category">Equity Stock Analysis</span>
+                        <span class="category">Market Observations</span>
+                        <span class="category">Financial Statement Analysis</span>
+                        <span class="category">Investment Case Studies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Interests -->
+    <section id="career" class="career">
+        <div class="container">
+            <h2 class="section-title">Career Interests</h2>
+            <div class="career-interests">
+                <div class="interest-item">
+                    <i class="fas fa-search-dollar"></i>
+                    <h3>Equity Research</h3>
+                    <p>Comprehensive company analysis and investment recommendations</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-chart-area"></i>
+                    <h3>Investment Analysis</h3>
+                    <p>Portfolio construction and risk-adjusted return optimization</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Portfolio Management</h3>
+                    <p>Asset allocation and investment strategy implementation</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-building"></i>
+                    <h3>Corporate Finance</h3>
+                    <p>Financial modeling and valuation for strategic decisions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Open to learning, collaboration, and long-term growth in the financial markets.</h3>
+                    <p>I'm actively seeking opportunities in equity research, portfolio management, and financial analysis. Let's discuss how my analytical skills and market experience can contribute to your team.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>mani12345jmp@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8651492448</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kolkata, West Bengal, India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/iyermanii" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:mani12345jmp@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mani Iyer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
